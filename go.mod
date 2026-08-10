@@ -47,7 +47,7 @@ require (
 	github.com/aws/smithy-go v1.27.3 // @grafana/data-sources-plugins
 	github.com/beevik/etree v1.6.0 // @grafana/grafana-backend-group
 	github.com/benbjohnson/clock v1.3.5 // @grafana/alerting-backend
-	github.com/blevesearch/bleve/v2 v2.5.7 // @grafana/grafana-search-and-storage
+	github.com/blevesearch/bleve/v2 v2.6.0 // @grafana/grafana-search-and-storage
 	github.com/blevesearch/bleve_index_api v1.3.11 // @grafana/grafana-search-and-storage
 	github.com/bradfitz/gomemcache v0.0.0-20250403215159-8d39553ac7cf // @grafana/grafana-backend-group
 	github.com/bwmarrin/snowflake v0.3.0 // @grafana/grafana-app-platform-squad
@@ -709,6 +709,7 @@ require github.com/ktrysmt/go-bitbucket v0.10.0 // @grafana/grafana-app-platform
 require cloud.google.com/go/discoveryengine v1.32.0 // @grafana/grafana-search-and-storage
 
 require (
+	github.com/blevesearch/zapx/v17 v17.1.2 // indirect
 	github.com/efficientgo/core v1.0.0-rc.3 // indirect
 	github.com/thanos-io/objstore v0.0.0-20250115091151-a54d0f04b42a // indirect
 	github.com/tinylib/msgp v1.6.3 // indirect
